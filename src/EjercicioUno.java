@@ -8,19 +8,19 @@ public class EjercicioUno {
         String fruta1 = "Banana";
         String fruta2 = "Cherry";
 
-        List<String> listaFrutas = new ArrayList<>();
+        List<String> fruits = new ArrayList<>();
 
-        listaFrutas.add(fruta);
-        listaFrutas.add(fruta1);
-        listaFrutas.add(fruta2);
+        fruits.add(fruta);
+        fruits.add(fruta1);
+        fruits.add(fruta2);
 
-        System.out.println(listaFrutas);
-        System.out.println(listaFrutas.size());
+        System.out.println(fruits);
+        System.out.println(fruits.size());
 
-        listaFrutas.remove(1);
-        System.out.println(listaFrutas);
+        fruits.remove(1);
+        System.out.println(fruits);
 
-        listaFrutas.set(1, "Orange");
-        System.out.println(listaFrutas);
+        fruits.set(1, "Orange");
+        System.out.println(fruits);
     }
 }
